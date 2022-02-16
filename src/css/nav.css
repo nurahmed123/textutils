@@ -1,0 +1,28 @@
+.theme-container .theme-color{
+    display: flex;
+}
+.theme-container .colors{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.theme-container .color1{
+    background-color: red;
+}
+
+.theme-container .color2{
+    background-color: pink;
+}
+
+.theme-container .color3{
+    background-color: aquamarine;
+}
+
+.theme-container .theme-color .colors:hover {
+    width: 35px;
+    height: 35px;
+    transition: all 0.3s ease-in-out;
+}
